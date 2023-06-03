@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/57c7b57856.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/1차시.css">
+</head>
+<body>
+    <section>
+        <nav class ="menu">
+            <i class="fas fa-bars"></i>
+            <i class="far fas fa-sticky-note"></i>
+        </nav>
+
+    <article class="profile" >
+        <img src="/프로필 사진2.jpg" art="프로필 이미지">
+
+        <h1>권가은</h1>
+        <h2>@muh_zz</h2>
+        <a href="#" class="btnview">VIEW MORE</a>
+    </article>
+    <ul class="contact">
+        <li>
+            <i class="fa-brands fa-instagram"></i>
+            <span>Visit My instagram</span>
+        </li>
+        <li>
+            <i class="fa-solid fa-square-envelope"></i>
+            <span>ga-ag@naver.com</span>
+        </li>
+    </ul>
+
+    <nav class="others">
+        <a href="1차시-1.html" class="on"></a>
+        <a href="2html.html"></a>
+        <a href="3html.html"></a>
+        <a href="4html.html"></a>
+    </nav>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color:  #fad4ae;
+}
+
+section{
+    width: 340px;
+    padding: 30px;
+    background-color: #faf1d6;
+    margin: 50px auto;
+    box-shadow: 10px 10px 30px #ffffff;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+section nav.menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #f5a281;
+}
+
+section article.profile{
+    width: 100%;
+    text-align: center;
+}
+section article.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+section article.profile h1{
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "arial";
+    line-height: 1;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+section article.profile h2{
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "arial";
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+section a.btnview{
+    display: block;
+    width: 180px;
+    height: 32px;
+    margin: 0px auto 20px;
+    background-color: #444;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: "arial";
+    color: #f5a281;
+    line-height: 32px;
+    text-align: center;
+
+background: linear-gradient(45deg, #fff, #ffeab6);
+box-shadow: 5px 10px 20px #f5a281;
+}
+
+section ul.contact{
+    margin-bottom: 25px;
+}
+
+section ul.contact li{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+section ul.contact li i{
+    width: 20%;
+    text-align: center;
+    color: #f5a281;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #f5a281;
+}
+
+section ul.contact li span{
+    font-weight: normal;
+    font-size: 11px;
+    color: #f5a281;
+    letter-spacing: 1px;
+}
+
+section nav.others{
+    width: 100%;
+    text-align: center;
+}
+
+section nav.others a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 10px;
+
+}
+
+section nav.others a:nth-of-type(1) {
+    background-color: #f5a281;
+    box-shadow: 5px 5px 10px #ffffff;
+}
+
+section nav.others a:nth-of-type(2) {
+    background-color: #f5a281;
+    box-shadow: 5px 5px 10px #ffffff;
+}
+
+section nav.others a:nth-of-type(3) {
+    background-color: #f5a281;
+    box-shadow: 5px 5px 10px #ffffff;
+}
+
+section nav.others a:nth-of-type(4) {
+    background-color: #f5a281;
+    box-shadow: 5px 5px 10px #ffffff;
+}
